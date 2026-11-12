@@ -1,8 +1,8 @@
 {
   "version": 1,
   "demo": false,
-  "updated_at": "2026-11-12T20:45:09+08:00",
-  "collected_at": "2026-11-12T20:45:09+08:00",
+  "updated_at": "2026-11-12T20:50:35+08:00",
+  "collected_at": "2026-11-12T20:50:35+08:00",
   "stale": true,
   "interval_hours": 6,
   "services": [
@@ -37,6 +37,18 @@
       "used_pct": null,
       "window": "周",
       "windows": []
+    },
+    {
+      "id": "muse",
+      "name": "Muse",
+      "status": "ok",
+      "window": "周",
+      "remaining_pct": 33.0,
+      "used_pct": 67.0,
+      "resets_at": "2026-11-14T17:46:00+08:00",
+      "collected_at": "2026-11-12T20:50:35+08:00",
+      "windows": [],
+      "note": "免费版周额度，由 Q 查 subscription-status 填入，不由 Mac 采集；额外 tokens 剩 30B"
     }
   ]
 }
