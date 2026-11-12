@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "demo": false,
+  "updated_at": "2026-11-12T13:06:51+08:00",
+  "collected_at": "2026-11-12T13:06:51+08:00",
+  "stale": true,
+  "interval_hours": 6,
+  "services": [
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "no_data",
+      "window": "5小时",
+      "remaining_pct": null,
+      "used_pct": null,
+      "resets_at": null,
+      "collected_at": null,
+      "windows": [
+        {
+          "label": "周",
+          "remaining_pct": null,
+          "resets_at": null,
+          "used_pct": null,
+          "window": "weekly"
+        }
+      ],
+      "note": "暂无数据：本机未找到 Codex 登录 (~/.codex/auth.json)，请先在 Codex CLI / 桌面版用 ChatGPT 账号登录"
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "status": "no_data",
+      "window": "周",
+      "remaining_pct": null,
+      "used_pct": null,
+      "resets_at": null,
+      "collected_at": null,
+      "windows": [],
+      "note": "暂无数据：Grok 无本地 CLI 登录可读，需在 grok.com 设置 → 用量手动抄数，或等浏览器采集；自动采集暂不支持"
+    }
+  ]
+}
