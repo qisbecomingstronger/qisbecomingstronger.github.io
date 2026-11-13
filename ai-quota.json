@@ -1,9 +1,9 @@
 {
   "version": 1,
   "demo": false,
-  "updated_at": "2026-11-13T08:34:39+08:00",
-  "collected_at": "2026-11-13T08:34:39+08:00",
-  "stale": true,
+  "updated_at": "2026-11-13T08:46:47+08:00",
+  "collected_at": "2026-11-13T08:46:47+08:00",
+  "stale": false,
   "interval_hours": 6,
   "services": [
     {
@@ -14,7 +14,7 @@
       "remaining_pct": 94.0,
       "used_pct": 6.0,
       "resets_at": "2026-11-13T13:04:13+08:00",
-      "collected_at": "2026-11-13T08:30:54+08:00",
+      "collected_at": "2026-11-13T08:46:14+08:00",
       "windows": [
         {
           "label": "周",
@@ -29,24 +29,24 @@
     {
       "id": "grok",
       "name": "Grok",
-      "status": "no_data",
+      "status": "ok",
       "window": "周",
-      "remaining_pct": null,
-      "used_pct": null,
-      "resets_at": null,
-      "collected_at": null,
+      "remaining_pct": 94.0,
+      "used_pct": 6.0,
+      "resets_at": "2026-11-19T02:25:41.013+00:00",
+      "collected_at": "2026-11-13T08:46:17+08:00",
       "windows": [],
-      "note": "暂无数据：Grok 令牌已过期 (401)，请在终端跑一次 grok 交互登录刷新，再重跑采集"
+      "note": "Grok CLI credit 池，请与 grok.com 用量页核对是否一致"
     },
     {
       "id": "muse",
       "name": "Muse",
       "status": "ok",
       "window": "周",
-      "remaining_pct": 32.0,
-      "used_pct": 68.0,
+      "remaining_pct": 31.0,
+      "used_pct": 69.0,
       "resets_at": "2026-11-14T17:46:00+08:00",
-      "collected_at": "2026-11-13T08:34:39+08:00",
+      "collected_at": "2026-11-13T08:46:47+08:00",
       "windows": [],
       "note": "免费版周额度，由 Q 查 subscription-status 填入，不由 Mac 采集；额外 tokens 剩 30B"
     }
