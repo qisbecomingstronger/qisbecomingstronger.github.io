@@ -1,52 +1,52 @@
 {
   "version": 1,
   "demo": false,
-  "updated_at": "2026-11-12T20:50:35+08:00",
-  "collected_at": "2026-11-12T20:50:35+08:00",
+  "updated_at": "2026-11-13T08:34:39+08:00",
+  "collected_at": "2026-11-13T08:34:39+08:00",
   "stale": true,
   "interval_hours": 6,
   "services": [
     {
-      "collected_at": "2026-11-12T20:45:09+08:00",
       "id": "codex",
       "name": "Codex",
-      "note": "",
-      "remaining_pct": 97.0,
-      "resets_at": "2026-11-13T00:37:29+08:00",
       "status": "ok",
-      "used_pct": 3.0,
       "window": "5小时",
+      "remaining_pct": 94.0,
+      "used_pct": 6.0,
+      "resets_at": "2026-11-13T13:04:13+08:00",
+      "collected_at": "2026-11-13T08:30:54+08:00",
       "windows": [
         {
           "label": "周",
-          "remaining_pct": 46.0,
-          "resets_at": "2026-11-16T11:38:41+08:00",
-          "used_pct": 54.0,
-          "window": "weekly"
+          "window": "weekly",
+          "remaining_pct": 45.0,
+          "used_pct": 55.0,
+          "resets_at": "2026-11-16T11:38:41+08:00"
         }
-      ]
+      ],
+      "note": ""
     },
     {
-      "collected_at": null,
       "id": "grok",
       "name": "Grok",
-      "note": "暂无数据：Grok 无本地 CLI 登录可读，需在 grok.com 设置 → 用量手动抄数，或等浏览器采集；自动采集暂不支持",
-      "remaining_pct": null,
-      "resets_at": null,
       "status": "no_data",
-      "used_pct": null,
       "window": "周",
-      "windows": []
+      "remaining_pct": null,
+      "used_pct": null,
+      "resets_at": null,
+      "collected_at": null,
+      "windows": [],
+      "note": "暂无数据：Grok 令牌已过期 (401)，请在终端跑一次 grok 交互登录刷新，再重跑采集"
     },
     {
       "id": "muse",
       "name": "Muse",
       "status": "ok",
       "window": "周",
-      "remaining_pct": 33.0,
-      "used_pct": 67.0,
+      "remaining_pct": 32.0,
+      "used_pct": 68.0,
       "resets_at": "2026-11-14T17:46:00+08:00",
-      "collected_at": "2026-11-12T20:50:35+08:00",
+      "collected_at": "2026-11-13T08:34:39+08:00",
       "windows": [],
       "note": "免费版周额度，由 Q 查 subscription-status 填入，不由 Mac 采集；额外 tokens 剩 30B"
     }
